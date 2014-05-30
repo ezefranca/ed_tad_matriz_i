@@ -12,7 +12,7 @@ inteiros que implemente a seguinte interface pública:
 
 4. int matriz_obter_nr_colunas(matriz_t *matriz)
 
-5. matriz_t *matriz_obter_matriz_transposta(matriz_t *matriz)
+5. matriz_t *matriz_obter_transposta(matriz_t *matriz)
   
 ## Notas
 
