@@ -27,10 +27,9 @@ clean:
 	@rm -rf $(OBJ)
 	@rm -rf $(BIN)
 
-all: matriz
-	$(CC) $(LFLAGS) $(OBJ) -o $(BIN)
+all: $(BIN)
 
-matriz: $(OBJ)
+$(BIN): $(OBJ)
 
 $(OBJ):$(SRC) $(INC)
 
