@@ -14,7 +14,7 @@ inteiros que implemente a seguinte interface pública:
 
 5. matriz_t *matriz_obter_matriz_transposta(matriz_t *matriz)
   
-#Notas
+## Notas
 
 1. O retorno das funções, em caso de exceções, deve ser compatível com o que se
    poderia considerar como razoável no contexto dos casos de uso.
