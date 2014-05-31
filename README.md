@@ -2,18 +2,22 @@
 
 Crie um TAD (tipo abstrato de dados) para representar um arranjo bidimensional (matriz) de
 inteiros que implemente a seguinte interface pública:
-
-1. matriz_t *matriz_criar(int nr_linhas, int nr_colunas)  
-
+```c
+1. matriz_t *matriz_criar(int nr_linhas, int nr_colunas)  ```
+```
+```c
 2. void matriz_destruir(matriz_t *matriz)
   * A função deve se precaver quanto a possibilidade de "double free()"
-
+```
+```c
 3. int matriz_obter_nr_linhas(matriz_t *matriz)
-
+```
+```c
 4. int matriz_obter_nr_colunas(matriz_t *matriz)
-
+```
+```c
 5. matriz_t *matriz_obter_transposta(matriz_t *matriz)
-  
+``` 
 ## Notas
 
 1. O retorno das funções, em caso de exceções, deve ser compatível com o que se
